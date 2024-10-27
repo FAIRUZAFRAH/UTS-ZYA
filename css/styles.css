@@ -1,0 +1,204 @@
+body{
+	/* Untuk font yang di pakai saat ini sama tipe nya apa */
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body, ul{
+	/* margin adalah ruang kosong yang berada di sekitar elemen HTML. */
+	margin: 0;
+	padding:0;
+}
+
+h1,h2, .skill-list {
+	/* sama juga yang di body */
+	font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+img{
+	/*untuk menentukan lebar maksimal nya berapa*/
+	max-width: 100%;
+}
+nav{
+	/* warna navbar nya ada di sini... */
+	background-color: #DBEBF4;
+	/* posisi nya */
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+}
+header{
+	top:70px;
+	/*  pengaturan posisi suatu elemen dalam CSS yang diposisikan relatif terhadap posisi normalnya */
+	position: relative;
+	margin-bottom:  220px;
+	/* background nya yang ada di depan/home ada di sini */
+	background-image: url('../img/256013152_06ded2be-68c1-4023-ab8c-0783ccfb952c.jpg');
+	background-repeat: no-repeat;
+	/* size nya menyesuaikan dengan cover */
+	background-size: cover;
+	background-position-y: -140px; 
+}
+
+nav ul li{
+	/* navbar bisa berada di posisinya dan tdk ikut ter scroll karena display nyaa yang inline-block */
+	display: inline-block;
+	margin: 0 15px;
+	padding:0;
+	/* uppercase berarti text dalam huruf besar semuanya */
+	text-transform: uppercase;
+	/* letter spacing untuk mengatur jarak antara text */
+	letter-spacing: 1px;
+	font-size: 14px;
+}
+
+nav ul{
+	margin: 0 auto;
+	text-align: center;
+	padding: 30px;
+
+}
+/* untuk h1 saja */
+h1{
+	font-size: 100px;
+	line-height: 130%;
+}
+
+/* untuk h2 saja */
+h2{
+	font-size: 30px;
+	line-height: 130%;
+}
+
+/* untuk h1, dan h2 */
+h1, h2{
+	font-weight: normal;
+}
+
+/* untuk p saja */
+p{
+	line-height: 150%;
+}
+
+/* untuk ul dan li saja */
+ul li{
+	list-style: none;
+	margin: 10px 0;
+}
+
+/* untuk kelas button */
+.button{
+	border: 1px solid black;
+	/* ukuran fontnya ada disini */
+	font-size: 15px;
+	/* maksudnya border radius ini, lengkungan yang ada di button 'add me linkedin', semakin besar nilai nya semakin lengkung */
+	border-radius: 20px;
+	text-decoration: none;
+	color: black;
+	/* padding untuk beri ruang antara batas konten dan batas elemen */
+	padding: 10px 20px;
+	margin-top:40px;
+	/* biar sejajar dengan elemen lain */
+	display: inline-block;
+	/* ini animasi, jika button 'add me on linkedin' di dekati kursor bakal jadi hitam secara perlahan */
+	transition: background 0.5s ease-in-out;
+}
+/* hovernya/tampilan setelah nya */
+.button:hover{
+	/* warna animasi nya setelah kena kursor ada di sini */
+	background:black;
+	/* warna untuk teks */
+	color: white; 
+
+}
+/* untuk figcaption saja */
+figcaption{
+	/* ukuran font nya */
+	font-size: 10px;
+	margin-top: 10px;
+	
+}
+
+/* untuk kelas intro-img dan figcaption */
+.intro-img, figcaption{
+	box-shadow: 1px 2px 30px rgba(0,0,0,0.2);
+	margin-top: 50px;
+	width:400px;
+	height: auto;
+	float: right;
+
+}
+
+figcaption {
+	box-shadow: none;
+}
+
+/* untuk kelas caption1 */
+.caption1 {
+	/* floatnya di hilangkan/tiadakan */
+	float: none;
+}
+
+/* untuk kelas skill-list */
+.skill-list {
+	text-align: center;
+	font-size: 50px;
+	line-height: 150%
+	/* margin-bottom: 130px; */ 
+	/* margin bottom error, tidak usah di sentuh */
+}
+
+/* untuk kelas project saja */
+.project{
+	margin: 30px 0; 
+	padding: 50px;
+}
+
+/* untuk kelas blue saja */
+.blue{
+	/* ini untuk menambahkan warna background */
+	background-color: #DBEBF4;
+}
+
+/* untuk kelas project dan button */
+.project .button{
+	margin-top: 10px;
+}
+
+/* untuk footer saja */
+footer{
+	/* text align center, berarti posisi text berada di tengah */
+	text-align: center;
+	margin:100px;
+}
+
+/* untuk h2 dalam footer */
+footer h2{
+	font-size: 50px;
+	margin-bottom:100px; 
+
+}
+
+/* untuk kelas right-alignment saja */
+.right-alignment{
+	text-align: right;
+}
+
+/* untuk li dan kelas empty */
+li.empty{
+	width: 90px;
+	border-top: 1px solid black;
+	top:-5px;
+	position: relative; 
+}
+
+/* untuk nav li dan a */
+nav li a{
+	text-decoration: none;
+	color: black;
+}
+
+/* sama dengan yang di atasnya tapi ini hovernya */
+nav li a:hover{
+	/* teks berarti jika kena kursor ada garis bawahnya */
+	text-decoration: underline;
+}

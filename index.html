@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- fungsi meta adalah untuk menampilkan informasi metadata -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- title ini untuk judul website -->
+	<title>Portfolio</title>
+	<!-- ini untuk connect ke fungsi bootstrap-grid -->
+	<link rel="stylesheet" href="assets/bootstrap-5.0.2-dist/css/bootstrap-grid.css" type="text/css">
+	<!-- ini untuk connect ke style.css -->
+	<link rel="stylesheet" href="css/styles.css" type="text/css">
+	<!-- add google font -->
+	<link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<!-- fungsi navbar adalah menyediakan tautan navigasi di dalam dokumen saat ini maupun ke dokumen lain -->
+	<nav>
+		<ul >
+			<!-- href yang #contact itu di ambil dari id, jika di tekan maka dia akan langsung ke lokasi si id tersebut -->
+			<li><a href="#contact">contact</a></li>
+			<li><a href="#work">works</a></li> 
+			<li><a href="#expe">experience</a></li>
+			<li class="empty"></li>
+			<!-- jika terdapat / seperti di bawah ini, maka jika di tekan dia akan kembali ke awal -->
+			<li><a href="/">behance</a></li>
+			<!-- target blank, jika di tekan maka dia akan membuka di tab terbaru -->
+			<li><a href="https://www.instagram.com/" target="_blank">instagram</a></li>
+			<li><a href="https://id.linkedin.com/" target="_blank">Linkedin</a></li>
+
+		</ul>
+	</nav>
+	<header>
+		<!-- div tujuannya untuk merangkum text -->
+		<div class="container">
+			<div class="row">
+				<!-- right coloum -->
+				<div class="col-sm">
+					<!-- h1, semakin besar angka nya, semakin kecil text nya -->
+					<h1>hi, i’m <br>
+						<!-- br untuk baris baru -->
+					Zyaa</h1>
+					<ul >
+						<li>_Teaching qur'an at Hijaiyyah Kids Palu</li>
+						<li>_Graduates of Al-Markaz Al-Islamy Islamic Boarding School</li>
+						<li>_Active student majoring in information systems at UIN Darokarama Palu University</li>
+						<li>_one of the members of HMPS SI UIN Datokarama Palu</li>
+						<li>_1st place during the da'wah competition  </li>
+					</ul> 
+					<!-- a href ini buat hyperlink text, jadi semacam text ada yang ada link tersembunyi -->
+					<a href="index2.html" class="button">tekan disini</a>
+				</div>
+				<!-- left coloum -->
+				<div class="col-sm">
+					<figure>
+						<!-- fungsi img adalah untuk menampilkan gambar -->
+						<img src="c:\Users\fairu\OneDrive\Documents\UTS ZYA\img\cia.jpg" class="intro-img" alt="cia">
+						<figcaption>
+							Photo by zyaa
+						</figcaption>
+					</figure>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section id="expe"> 
+		<!-- ul itu undered list, jika ada ini, berarti list ini tidak menggunakan angka/tidak menggunakan urutan khusus -->
+		<ul class="skill-list">
+			<!-- li atau list, yakni isi list yang mau di tampilkan -->
+			<li>01_religious teacher</li>
+			<li>02_student</li>
+			<li>03_organization</li>
+			<li>04_working in the group</li>
+			<li>05_female entrepreneur</li>
+		</ul>
+	</section>
+	<!-- projects -->
+	<section class="project blue">
+		<div class="container">
+			<div class="row">
+				<!-- right coloum -->
+				<div class="col-sm">
+					<figure>
+						<img src="img/belajar.jpg" alt="cosmetics">
+						<figcaption class="right-alignment">
+							Photo by Annie Spratt on Unsplash
+						</figcaption>
+					</figure> 
+				</div>
+				<div class="col-sm">
+					<h2>Studying for everything </h2>
+					<p>I am also an active student in the Information Systems major at UIN Datokarama Palu. As part of the younger generation involved in the world of technology, I have a strong interest in developing skills in information systems, including programming, data management, and systems analysis. My active involvement on campus reflects a passion for continuous learning and contributing, not only in academic settings but also through organizational activities that support personal and professional growth. I see great potential in the digital world to create innovative solutions that benefit society.
+
+
+					</p>
+					<a href="index3.html" class="button">Read More </a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- project2 -->
+	<section class="project">
+		<div class="container">
+			<div class="row">
+				<!-- right coloum -->
+				<div class="col-sm right-alignment">
+					<h2>teaching children to <br> recite the Al Qu'ran</h2>
+					<p>Teaching young children to recite the Quran is an activity filled with patience and meaning. It not only involves introducing the Arabic letters and Quranic recitation but also instills spiritual and moral values from an early age. By using fun approaches, such as visual aids, stories, and games, children can more easily understand and become interested in learning. Additionally, the teacher needs to build a warm relationship so that the children feel comfortable and enthusiastic about their lessons. Patience and consistency are crucial in helping them gradually develop their Quranic recitation skills.
+					Photo by José Alejandro Cuffia on Unsplash</p>
+					<a href="index4.html" class="button">Read More </a>
+				</div>
+				<div class="col-sm">
+					<figure>
+						<img src="img/sam-sul-47EwQ_mPUmY-unsplash.jpg" alt="cosmetics">
+						<figcaption class="caption1">
+							Photo by Sam sul on Unsplash2
+						</figcaption>
+					</figure> 
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="project blue" id="work">
+		<!-- project3 -->
+		<div class="container">
+			<div class="row">
+				<!-- right coloum -->
+				<div class="col-sm">
+					<figure>
+						<img src="img/corinne-kutz-tMI2_-r5Nfo-unsplash.jpg" alt="working" >
+						<figcaption class="right-alignment">
+							Photo by Corinne kutz on Unsplash3
+						</figcaption>
+					</figure>
+				</div> 
+				<div class="col-sm">
+					<h2>working at home</h2>
+					<p>"Working from home offers a unique comfort: no traffic, more flexibility, and a relaxed atmosphere. But behind the comfort, it still requires discipline and time management to get everything done well. At home, productivity is about finding your own rhythm, maintaining focus, and creating a balance between work and personal time. With perseverance, working from home can feel like working in your own comfort zone without losing professionalism."
+					Photo by Marek Levák on Unsplash</p>
+					<a href="index5.html" class="button">Read More </a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- projects  4-->
+	<section class="project blue">
+		<div class="container">
+			<div class="row">
+				<!-- right coloum -->
+				<div class="col-sm">
+					<figure>
+						<img src="c:\Users\fairu\OneDrive\Documents\UTS ZYA\img\annie-spratt-JexAuNCfefs-unsplash.jpg" alt="cosmetics">
+						<figcaption class="right-alignment">
+							Photo by Annie Spratt on Unsplash
+						</figcaption>
+					</figure> 
+				</div>
+				<div class="col-sm">
+					<h2>working on an OOP assignment </h2>
+					<p>"Bit by bit, line by line, page by page. Building a website isn’t just arranging elements; it's about creating an experience. Though it can be exhausting, there’s satisfaction in seeing the final work come to life. Every error is a teacher, every progress a small achievement. Keep moving forward, because in every line of code lies an opportunity to learn deeper and grow stronger!"
+					</p>
+					<a href="index6.html" class="button">Read More </a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- footer untuk menampilkan informasi di akhir -->
+	<footer id="contact">
+		<h2>any questions?<br>
+			find me here <br>fairuzyaa@gmail.com</h2>
+			<p>designed & developed by Andi Zikra 2024</p>
+		</footer>
+	</body>
+	</html>
